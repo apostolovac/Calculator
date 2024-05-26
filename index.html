@@ -12,35 +12,31 @@
 
 <body>
 	<div class="container">
-		<div id="wrapper">
-			<form id="calculator">
+		<input type="text" class="screen" disabled />
+		<div class="keys">
+			<button value="7" class="button number">7</button>
+			<button value="8" class="button number">8</button>
+			<button value="9" class="button number">9</button>
+			<button class="operator button" value="+">+</button>
+			<button class="all-clear button" value="all-clear">AC</button>
 
-				<input id="display" type="text" name="display">
-				<div class="buttons">
-					<input class="button digits" type="button" value="7">
-					<input class="button digits" type="button" value="8">
-					<input class="button digits" type="button" value="9">
-					<input class="button operator" type="button" value="+">
-					<input id="clearButton" class="button" type="button" value="C">
+			<button value="4" class="button number">4</button>
+			<button value="5" class="button number">5</button>
+			<button value="6" class="button number">6</button>
+			<button class="operator button" value="-">-</button>
 
-					<input class="button digits" type="button" value="4">
-					<input class="button digits" type="button" value="5">
-					<input class="button digits" type="button" value="6">
-					<input class="button operator" type="button" value="-">
+			<button value="1" class="button number">1</button>
+			<button value="2" class="button number">2</button>
+			<button value="3" class="button number">3</button>
+			<button class="operator button" value="*">*</button>
+			<button class="button operator equal" value="=">=</button>
 
-					<input class="button digits" type="button" value="1">
-					<input class="button digits" type="button" value="2">
-					<input class="button digits" type="button" value="3">
-					<input class="button operator" type="button" value="x">
-					<input class="button operator equal" type="button" value="=">
-
-					<input class="button digits zero" type="button" value="0">
-					<input class="button operator" type="button" value=".">
-					<input class="button operator" type="button" value="/">
-				</div>
-			</form>
+			<button value="0" class="button zero number">0</button>
+			<button class="decimal button" value=".">.</button>
+			<button class="operator button" value="/">/</button>
 		</div>
 	</div>
+	<script src="./script.js"></script>
 </body>
 
 </html>
